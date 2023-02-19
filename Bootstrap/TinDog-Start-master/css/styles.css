@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap');
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+
+#title {
+    background-color: #ff4c68;
+}
