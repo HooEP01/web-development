@@ -1,0 +1,17 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+const fName = 'Angela'
+const lName = 'Yu'
+const number = 7
+
+ReactDOM
+  .createRoot(
+    document.getElementById('root')
+  )
+  .render(
+    <div>
+      <h1>Hello {fName} {lName}!</h1>
+      <p>Your lucky number is {number}</p>
+    </div>
+  )

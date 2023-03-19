@@ -89,7 +89,6 @@ passport.use(new GoogleStrategy({
                     return cb(null, newUser);
                 }
 
-
             } else {
                 return cb(null, find);
             }

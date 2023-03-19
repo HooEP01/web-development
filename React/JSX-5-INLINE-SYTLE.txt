@@ -1,0 +1,18 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+const customStyle = {
+  color: "red",
+  fontSize: "30px",
+  border: "1px solid black",
+};
+
+ReactDOM
+  .createRoot(
+    document.getElementById('root')
+  )
+  .render(
+    <div>
+      <h1 style={customStyle}>Hello World</h1>
+    </div>
+  );

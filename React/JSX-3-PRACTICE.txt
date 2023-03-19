@@ -1,0 +1,16 @@
+import react from 'react'
+import reactDOM from 'react-dom/client'
+
+const name = 'Angela'
+const year = new Date().getFullYear()
+
+reactDOM
+  .createRoot(
+    document.getElementById('root')
+  )
+  .render(
+    <div>
+      <h1>Created By {name}</h1>
+      <p>Copyright {year}</p>
+    </div>
+  )

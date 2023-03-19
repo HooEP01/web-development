@@ -1,0 +1,20 @@
+import react from 'react'
+import reactDOM from 'react-dom/client'
+
+const image = 'https://picsum.photos/200'
+
+reactDOM
+  .createRoot(
+    document.getElementById('root')
+  )
+  .render(
+    <div>
+      <h1 className="heading" contentEditable="true" spellCheck="false">My favorite foods:</h1>
+      <div>
+        <img src={image}/>
+        <img className="food-img" src="https://thewoksoflife.com/wp-content/uploads/2020/04/homemade-chinese-egg-noodles-19-e1609271249794.jpg"/>
+        <img src="https://static.onecms.io/wp-content/uploads/sites/43/2022/11/09/267904-oven-baked-bacon-3x4-1.jpg"/>
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2013/05/Cheeseburger-3d7c922.jpg?quality=90&resize=556,505"/>
+      </div>
+    </div>
+  )
